@@ -21,10 +21,9 @@ node index.js
 
 ## 📢 Catatan
 - Pastikan **Node.js** dan **npm** sudah terinstal di sistem.
-- Jika ada kendala saat menjalankan, cek error log atau pastikan semua dependensi telah terinstal dengan benar.
+- Memerlukan dua akun Whatsapp, satu sebagai bot dan satu lagi sebagai user.
 
 ## ✍️ Penulis
-**Nama Penulis:** [SlashGibsonn](https://github.com/SlashGibsonn)
 
 🚀 Selamat mencoba! Jika ada masalah, silakan ajukan issue di repository ini. 😊
 
