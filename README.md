@@ -21,7 +21,8 @@ node index.js
 
 ## 📢 Catatan
 - Pastikan **Node.js** dan **npm** sudah terinstal di sistem.
-- Memerlukan dua akun Whatsapp, satu sebagai bot dan satu lagi sebagai user.
+- Memerlukan dua akun Whatsapp, satu sebagai **bot** dan satu lagi sebagai **user**.
+- Melakukan scan QR Code pada akun Whatsapp **bot**.
 
 ## ✍️ Penulis
 
