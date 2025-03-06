@@ -1,3 +1,7 @@
 .wwebjs_auth/
 .wwebjs_cache/
+<<<<<<< HEAD
 node_modules/
+=======
+node_modules/
+>>>>>>> bb612822643e558a123049a883bfd08386e2152d
