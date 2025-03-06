@@ -3,7 +3,7 @@ const qrcode = require("qrcode-terminal");
 const axios = require("axios");
 
 // Language model name to use
-const languageModelName = "deepseek-llm:7b";
+const languageModelName = "deepseek-llm:7b"; //repalce with your own LLM model
 
 // Object to store conversation history
 const conversationHistory = {};
@@ -65,7 +65,7 @@ async function processMessage(text, userId) {
 const client = new Client({
   authStrategy: new LocalAuth(), // Save the session locally
   puppeteer: {
-    args: ["--no-sandbox", "--disable-setuid-sandbox"], // Tambahkan opsi ini untuk menghindari error root
+    args: ["--no-sandbox", "--disable-setuid-sandbox"], // Add this option to avoid root error
   },
 });
 
