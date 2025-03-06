@@ -25,7 +25,7 @@ async function processMessage(text, userId) {
     }
 
     const response = await axios.post(
-      "http://192.168.194.89:11434/api/chat",
+      "http://************:11434/api/chat", // Replace with your IP address
       {
         model: languageModelName,
         messages: [
