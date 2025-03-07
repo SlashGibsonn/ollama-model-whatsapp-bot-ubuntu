@@ -1,4 +1,4 @@
-# Deepseek WhatsApp Bot (Ubuntu)
+# Ollama Model WhatsApp Bot (Ubuntu)
 
 ##  Cara Penggunaan
 
