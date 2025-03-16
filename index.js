@@ -1,9 +1,10 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 const axios = require("axios");
+require('dotenv').config();
 
 // Language model name to use
-const languageModelName = "deepseek-llm:7b"; //repalce with your own LLM model, locally
+const languageModelName=process.env.MODEL_NAME; //repalce with your own LLM model, locally
 
 // Object to store conversation history
 const conversationHistory = {};
@@ -25,7 +26,7 @@ async function processMessage(text, userId) {
     }
 
     const response = await axios.post(
-      "http://127.0.0.1:11434/api/chat", // Replace with your IP address
+      process.env.OLLAMA_URL, // Replace with your IP address
       {
         model: languageModelName,
         messages: [
@@ -98,3 +99,4 @@ client.on("message", async (message) => {
 
 // Initialize the client
 client.initialize();
+console.log("Model Name:", process.env.MODEL_NAME);
