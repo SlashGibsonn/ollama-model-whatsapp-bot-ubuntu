@@ -3,7 +3,7 @@ const qrcode = require("qrcode-terminal");
 const axios = require("axios");
 
 // Language model name to use
-const languageModelName = "deepseek-llm:7b"; //repalce with your own LLM model
+const languageModelName = "deepseek-llm:7b"; //repalce with your own LLM model, locally
 
 // Object to store conversation history
 const conversationHistory = {};
