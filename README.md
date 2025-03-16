@@ -4,7 +4,7 @@
 
 ###  Pindah ke Direktori Proyek
 ```bash
-cd deepseek-whatsapp-bot-ubuntu
+cd ollama-whatsapp-bot-ubuntu
 ```
 
 ###  Install Dependencies
