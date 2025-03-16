@@ -20,6 +20,7 @@ node index.js
 ---
 
 ##  Catatan
+- Model LLM berjalan di local atau remote server
 - Memerlukan dua akun Whatsapp, satu sebagai **bot** dan satu lagi sebagai **user**.
 - Melakukan scan QR Code pada akun Whatsapp **bot**.
 
